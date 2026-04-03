@@ -38,7 +38,7 @@ def _show_banner() -> None:
     console.print(BANNER)
     subtitle = Text("Transcript Generator", style="bold bright_magenta")
     subtitle.append("  •  ", style="dim")
-    subtitle.append("v0.1.1", style="dim bright_cyan")
+    subtitle.append("v0.1.2", style="dim bright_cyan")
     console.print(subtitle, justify="center")
     console.print()
 
