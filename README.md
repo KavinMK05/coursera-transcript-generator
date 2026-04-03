@@ -2,7 +2,7 @@
 
 A beautiful CLI tool to bulk-download transcripts and subtitles from any Coursera course you're enrolled in.
 
-![CLI Preview](./preview.png)
+![CLI Preview](https://raw.githubusercontent.com/KavinMK05/coursera-transcript-generator/main/preview.png)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
