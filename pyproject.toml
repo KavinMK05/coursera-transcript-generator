@@ -1,6 +1,6 @@
 [project]
 name = "coursera-transcripts"
-version = "0.1.2"
+dynamic = ["version"]
 description = "CLI tool to extract Coursera course transcripts/subtitles"
 readme = "README.md"
 authors = [
@@ -28,3 +28,6 @@ coursera-transcripts = "coursera_transcripts.cli:main"
 [build-system]
 requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "coursera_transcripts.__version__"}
