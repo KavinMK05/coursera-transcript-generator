@@ -2,6 +2,8 @@
 
 A beautiful CLI tool to bulk-download transcripts and subtitles from any Coursera course you're enrolled in.
 
+![CLI Preview](./preview.png)
+
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
@@ -43,6 +45,7 @@ coursera-transcripts
 ```
 
 You'll be prompted for:
+
 1. **CAUTH cookie** — your Coursera authentication token
 2. **Course slug** — the identifier from the course URL
 3. **Options** — language, format, and output directory
@@ -62,13 +65,13 @@ coursera-transcripts \
 
 ### All Options
 
-| Flag | Short | Default | Description |
-|------|-------|---------|-------------|
-| `--cookie` | `-c` | *(prompted)* | CAUTH cookie value |
-| `--slug` | `-s` | *(prompted)* | Course slug from URL |
-| `--language` | `-l` | `en` | Subtitle language code |
-| `--format` | | `txt` | Output format (`txt` or `srt`) |
-| `--output` | `-o` | `./output` | Parent output directory |
+| Flag         | Short | Default      | Description                    |
+| ------------ | ----- | ------------ | ------------------------------ |
+| `--cookie`   | `-c`  | _(prompted)_ | CAUTH cookie value             |
+| `--slug`     | `-s`  | _(prompted)_ | Course slug from URL           |
+| `--language` | `-l`  | `en`         | Subtitle language code         |
+| `--format`   |       | `txt`        | Output format (`txt` or `srt`) |
+| `--output`   | `-o`  | `./output`   | Parent output directory        |
 
 ---
 
