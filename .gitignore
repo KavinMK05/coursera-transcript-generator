@@ -1,0 +1,36 @@
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ── Virtual environments ──────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDE / Editor ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS files ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Output / downloaded transcripts ──────────────────
+output/
+test_output/
+
+# ── Secrets & credentials ────────────────────────────
+.env
+*.env
+.env.*
