@@ -6,7 +6,7 @@ A beautiful CLI tool to bulk-download transcripts and subtitles from any Courser
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/coursera-transcripts?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/coursera-transcripts)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/coursera-transcripts?period=total&units=NONE&left_color=BLACK&right_color=RED&left_text=downloads)](https://pepy.tech/projects/coursera-transcripts)
 
 ---
 
